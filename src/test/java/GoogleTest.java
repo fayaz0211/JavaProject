@@ -13,6 +13,7 @@ public class GoogleTest {
         driver.get("http://www.google.com");
         String title = driver.getTitle();
         System.out.println(title);
+        System.out.println(title);
 
 
     }
