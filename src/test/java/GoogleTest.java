@@ -14,10 +14,7 @@ public class GoogleTest {
         driver.get("http://www.google.com");
         String title = driver.getTitle();
         System.out.println(title);
-        System.out.println(title);
-        System.out.println("THe test is passing!!");
-        System.out.println("THe test is passing!!");
-        System.out.println("THe test is passing passing!!!!");
+        System.out.println("Added green balls to jenkins!!!!");
 
     }
 }
