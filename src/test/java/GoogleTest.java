@@ -1,3 +1,4 @@
+import org.apache.xpath.SourceTree;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -14,6 +15,7 @@ public class GoogleTest {
         String title = driver.getTitle();
         System.out.println(title);
         System.out.println(title);
+        System.out.println("THe test is passing!!");
 
 
     }
